@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura dos Pôneis</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/depositphotos_573975480-stock-photo-naturalistic-digital-illustration-beautiful-scenery.jpg" alt="Floresta mágica">
+            <p>Após um dia de correria, você se encontra em meio a uma floresta encantada. Logo percebe que deve encontrar o caminho de volta para casa antes que o sol se ponha. Qual caminho você escolherá?</p>
+            <button class="btn-proximo" data-proximo="1">Caminho florido com pôneis pastando</button>
+            <button class="btn-proximo" data-proximo="2">Trilha iluminada com sons de cascos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide seguir o caminho florido e logo se depara com um grupo de pôneis brincando. Eles parecem querer lhe mostrar algo.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir os pôneis até um campo aberto</button>
+            <button class="btn-proximo" data-proximo="4">Agradecer e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você segue pela trilha iluminada e ouve sons de cascos de pôneis. A trilha leva a uma clareira com várias pegadas de pôneis.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir as pegadas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar uma caverna próxima</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No campo aberto, os pôneis se afastam e revelam um mapa antigo escondido sob uma pedra. O mapa parece indicar a direção para uma vila mágica.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a vila mágica</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/s.png" alt="Voltando para casa">
+            <p>Você decide que a aventura não é para você e volta para casa. No entanto, sempre se pergunta sobre a vila mágica que os pôneis estavam tentando mostrar.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Seguindo as pegadas, você encontra uma clareira cheia de pôneis e um poço mágico. O poço parece ter uma aura especial.</p>
+            <button class="btn-proximo" data-proximo="7">Explorar o poço mágico</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Explorando a caverna, você encontra uma sala cheia de pinturas de pôneis antigos. As pinturas mostram a vila mágica.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a vila mágica</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Ao chegar na vila mágica, você é recebido calorosamente pelos pôneis. A vila está cheia de criaturas encantadas e maravilhas.</p>
+            <button class="btn-proximo" data-proximo="8">Ficar na vila e explorar</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/Um_radiante_foco_T4E26.webp" alt="Vila mágica dos pôneis">
+            <p>Na vila mágica, você encontra muitos amigos pôneis e decide ficar por lá para aprender mais sobre a magia e explorar os arredores.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
